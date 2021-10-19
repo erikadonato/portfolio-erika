@@ -124,9 +124,6 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-	body {
-		overflow: auto;
-	}
 	.container {
 		width: 96%;
 	}
@@ -145,7 +142,7 @@ body {
 		width: 38%;
 	}
 	#foto {
-		height: 10vh;
+		height: 15vh;
     	width: 84%;
 	}
 	.personalinformation {
@@ -191,7 +188,7 @@ body {
 		height: 24vh;
 	}
 	#foto {
-		height: 10vh;
+		height: 15vh;
     	width: 100%;
 	}
 	.personalinformation {
@@ -208,7 +205,7 @@ body {
 		height: 26vh;
 	}
 	#foto {
-		height: 10vh;
+		height: 15vh;
 		width: 90%;
 	}
 	.personalinformation {
