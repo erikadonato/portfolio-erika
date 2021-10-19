@@ -137,22 +137,22 @@ body {
 	.container {
 		justify-content: flex-start;
 	}
-
 	.header {
 		height: 26vh;
 	}
 	.photospace{
-		width: 30%;
+		height: 26vh;
+		width: 38%;
 	}
-	
-	#foto{
-		height: 25vh;
-		width: 100%;
+	#foto {
+		height: 26vh;
+    	width: 84%;
 	}
 	.personalinformation {
 		font-size: 16px;
-		width: 68%;
+		width: 60%;
 		height: 26vh;
+		margin-top: 4%;
 	}
 	.personalinformation_details {
 		font-size: 12px;
@@ -183,12 +183,37 @@ body {
 	}
 }
 
-@media only screen and (max-width: 320px) {
-
-	.photospace {
-		width: 34%;
+@media only screen and (max-width: 375px) {
+	.header {
+		height: 22vh;
 	}
-	.personalinformation{
-		width: 64%;
+	.photospace{
+		height: 24vh;
+	}
+	#foto {
+		height: 17vh;
+    	width: 100%;
+	}
+	.personalinformation {
+		margin-top: 12%;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 374px) {
+	.header {
+		height: 26vh;
+	}
+	.photospace{
+		height: 26vh;
+	}
+	#foto {
+		height: 21vh;
+		width: 90%;
+	}
+	.personalinformation {
+		height: auto;
+		margin-top: 2%;
+		margin-bottom: 1%;
 	}
 }
